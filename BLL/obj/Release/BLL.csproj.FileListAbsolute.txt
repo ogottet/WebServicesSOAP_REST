@@ -1,0 +1,10 @@
+C:\Users\uadmin\source\repos\StudentCardService\BLL\bin\Release\BLL.dll
+C:\Users\uadmin\source\repos\StudentCardService\BLL\bin\Release\BLL.pdb
+C:\Users\uadmin\source\repos\StudentCardService\BLL\bin\Release\DAL.dll
+C:\Users\uadmin\source\repos\StudentCardService\BLL\bin\Release\DTO.dll
+C:\Users\uadmin\source\repos\StudentCardService\BLL\bin\Release\DAL.pdb
+C:\Users\uadmin\source\repos\StudentCardService\BLL\bin\Release\DTO.pdb
+C:\Users\uadmin\source\repos\StudentCardService\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\uadmin\source\repos\StudentCardService\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+C:\Users\uadmin\source\repos\StudentCardService\BLL\obj\Release\BLL.dll
+C:\Users\uadmin\source\repos\StudentCardService\BLL\obj\Release\BLL.pdb

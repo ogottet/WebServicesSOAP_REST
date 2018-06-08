@@ -1,0 +1,13 @@
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\bin\WcFPrintCardServiceSOAP.dll.config
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\bin\WcFPrintCardServiceSOAP.dll
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\bin\WcFPrintCardServiceSOAP.pdb
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\bin\BLL.dll
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\bin\DTO.dll
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\bin\DAL.dll
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\bin\BLL.pdb
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\bin\DTO.pdb
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\bin\DAL.pdb
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\obj\Release\WcFPrintCardServiceSOAP.csprojResolveAssemblyReference.cache
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\obj\Release\WcFPrintCardServiceSOAP.csproj.CoreCompileInputs.cache
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\obj\Release\WcFPrintCardServiceSOAP.dll
+C:\Users\uadmin\source\repos\StudentCardService\WcFPrintCardServiceSOAP\obj\Release\WcFPrintCardServiceSOAP.pdb

@@ -1,0 +1,8 @@
+C:\Users\uadmin\source\repos\StudentCardService\DAL\bin\Release\DAL.dll
+C:\Users\uadmin\source\repos\StudentCardService\DAL\bin\Release\DAL.pdb
+C:\Users\uadmin\source\repos\StudentCardService\DAL\bin\Release\DTO.dll
+C:\Users\uadmin\source\repos\StudentCardService\DAL\bin\Release\DTO.pdb
+C:\Users\uadmin\source\repos\StudentCardService\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\uadmin\source\repos\StudentCardService\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\uadmin\source\repos\StudentCardService\DAL\obj\Release\DAL.dll
+C:\Users\uadmin\source\repos\StudentCardService\DAL\obj\Release\DAL.pdb

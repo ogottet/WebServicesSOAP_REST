@@ -1,0 +1,6 @@
+C:\Users\uadmin\source\repos\StudentCardService\DTO\bin\Release\DTO.dll
+C:\Users\uadmin\source\repos\StudentCardService\DTO\bin\Release\DTO.pdb
+C:\Users\uadmin\source\repos\StudentCardService\DTO\obj\Release\DTO.csprojResolveAssemblyReference.cache
+C:\Users\uadmin\source\repos\StudentCardService\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+C:\Users\uadmin\source\repos\StudentCardService\DTO\obj\Release\DTO.dll
+C:\Users\uadmin\source\repos\StudentCardService\DTO\obj\Release\DTO.pdb

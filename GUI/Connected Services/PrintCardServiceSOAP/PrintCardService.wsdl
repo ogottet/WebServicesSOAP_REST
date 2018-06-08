@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PrintCardService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://153.109.124.35:81/goo-soap/PrintCardServiceSOAP.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://153.109.124.35:81/goo-soap/PrintCardServiceSOAP.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPrintCardService_RechargeByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:RechargeByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IPrintCardService_RechargeByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RechargeByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPrintCardService_RechargeByUserName_InputMessage">
+    <wsdl:part name="parameters" element="tns:RechargeByUserName" />
+  </wsdl:message>
+  <wsdl:message name="IPrintCardService_RechargeByUserName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RechargeByUserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPrintCardService_RechargePrinterQuota_InputMessage">
+    <wsdl:part name="parameters" element="tns:RechargePrinterQuota" />
+  </wsdl:message>
+  <wsdl:message name="IPrintCardService_RechargePrinterQuota_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RechargePrinterQuotaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPrintCardService">
+    <wsdl:operation name="RechargeByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPrintCardService/RechargeByUserId" message="tns:IPrintCardService_RechargeByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPrintCardService/RechargeByUserIdResponse" message="tns:IPrintCardService_RechargeByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RechargeByUserName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPrintCardService/RechargeByUserName" message="tns:IPrintCardService_RechargeByUserName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPrintCardService/RechargeByUserNameResponse" message="tns:IPrintCardService_RechargeByUserName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RechargePrinterQuota">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPrintCardService/RechargePrinterQuota" message="tns:IPrintCardService_RechargePrinterQuota_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPrintCardService/RechargePrinterQuotaResponse" message="tns:IPrintCardService_RechargePrinterQuota_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPrintCardService" type="tns:IPrintCardService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RechargeByUserId">
+      <soap:operation soapAction="http://tempuri.org/IPrintCardService/RechargeByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RechargeByUserName">
+      <soap:operation soapAction="http://tempuri.org/IPrintCardService/RechargeByUserName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RechargePrinterQuota">
+      <soap:operation soapAction="http://tempuri.org/IPrintCardService/RechargePrinterQuota" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PrintCardService">
+    <wsdl:port name="BasicHttpBinding_IPrintCardService" binding="tns:BasicHttpBinding_IPrintCardService">
+      <soap:address location="http://153.109.124.35:81/goo-soap/PrintCardServiceSOAP.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
